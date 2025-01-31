@@ -3022,12 +3022,12 @@
         ]
       },
       {
-        "name": "Items",
+        "name": "Special Items",
         "map_locations": [
           {
             "map": "Entire Map",
             "x": 710,
-            "y": 80
+            "y": 40
           }
         ],
         "sections": [
@@ -3040,6 +3040,44 @@
           { "ref": "Clover/Clover Journal Entry" },
           { "ref": "Sacrifice Enough and Get 18 Favor Points/Kapala Journal Entry" },
           { "ref": "Tablet Of Destiny/Kill Kingu or Osirus/Tablet Of Destiny Journal Entry" }
+        ]
+      },
+      {
+        "name": "Normal Items",
+        "map_locations": [
+          {
+            "map": "Entire Map",
+            "x": 710,
+            "y": 120
+          }
+        ],
+        "sections": [
+          { "ref": "Paste/Paste Journal Entry" },
+          { "ref": "Machette/Machette Journal Entry" },
+          { "ref": "Camera/Camera Journal Entry" },
+          { "ref": "Bomb Box/Bomb Box Journal Entry" },
+          { "ref": "Cape/Cape Journal Entry" },
+          { "ref": "Climbing Gloves/Climbing Gloves Journal Entry" },
+          { "ref": "Shotgun/Shotgun Journal Entry" },
+          { "ref": "Mattock/Mattock Journal Entry" },
+          { "ref": "Spring Shoes/Spring Shoes Journal Entry" },
+          { "ref": "Jetpack/Jetpack Journal Entry" },
+          { "ref": "Skeleton Key/Skeleton Key Journal Entry" },
+          { "ref": "Web Gun/Web Gun Journal Entry" },
+          { "ref": "Compass/Compass Journal Entry" },
+          { "ref": "Teleporter/Teleporter Journal Entry" },
+          { "ref": "Bomb Bag/Bomb Bag Journal Entry" },
+          { "ref": "Hoverpack/Hoverpack Journal Entry" },
+          { "ref": "Spectacles/Spectacles Journal Entry" },
+          { "ref": "Crossbow/Crossbow Journal Entry" },
+          { "ref": "Pitcher's Mitt/Pitcher's Mitt Journal Entry" },
+          { "ref": "Spike Shoes/Spike Shoes Journal Entry" },
+          { "ref": "Telepack/Telepack Journal Entry" },
+          { "ref": "Camera/Camera Journal Entry" },
+          { "ref": "Freeze Ray/Freeze Ray Journal Entry" },
+          { "ref": "Shield/Shield Journal Entry" },
+          { "ref": "Rope Pile/Rope Pile Journal Entry" },
+          { "ref": "Powerpack/Powerpack Journal Entry" }
         ]
       },
       {
