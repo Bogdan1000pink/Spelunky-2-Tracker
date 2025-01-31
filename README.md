@@ -10,4 +10,4 @@ Download the latest build or source and place it in you Poptracker Packs folder.
 
 ## More Info
 
-For the latest Spelunky2 Tracker release, check (https://github.com/Bogdan100pink)
+For the latest Spelunky2 Tracker release, check (https://github.com/Bogdan1000pink/Spelunky-2-Tracker)
