@@ -1,0 +1,76 @@
+{
+    // sets layouts for shadred items grids
+  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+    "CO_Items": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "-3, 1",
+                        "h_alignment": "middle",
+                        "item_size":100,
+                        "rows": [
+                            ["udjat","crown","hedjet","HouYisBow","ankh"],
+                            ["scepter","TabletOfDestiny","excalibur","ushabti","ArrowOfLight"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Progressive_Items": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "-3, 1",
+                        "h_alignment": "middle",
+                        "item_size": 100,
+                        "rows": [
+                            ["hp","bombs","ropes","eggplant"],
+                            ["paste","compass","COCheckpoint"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Progressive_Worlds": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content":[
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "-3, 1",
+                        "h_alignment": "middle",
+                        "item_size": 100,
+                        "rows": [
+                            ["secondworld","olmec_lair","fourthworld"],
+                            ["ice_caves","neo_babylon","sunken_city"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

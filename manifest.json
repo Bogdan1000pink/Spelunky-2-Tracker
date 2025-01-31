@@ -1,0 +1,16 @@
+{
+  "name": "Spelunky2 AP Tracker",
+  "game_name": "Spelunky 2",
+  "package_version": "1.0.1.0",
+  "package_uid": "spelunky2ap",
+  "author": "Bogdan100pink",
+  "min_poptracker_version": "0.25.9",
+  "target_poptracker_version": "0.28.0",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": [
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  //sets the layout for the broadcast view
+  "tracker_broadcast": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "layout",
+            "key": "CO_Items"
+          },
+          {
+            "type": "layout",
+            "key": "Progressive_Worlds"
+          }
+        ]
+      },
+      {
+        "type": "dock",
+        "dock": "bottom",
+        "margim": "0,0",
+        "content": [
+          {
+            "type": "layout",
+            "key": "Progressive_Items"
+          }
+        ]
+      }
+    ]
+  }
+}
+  

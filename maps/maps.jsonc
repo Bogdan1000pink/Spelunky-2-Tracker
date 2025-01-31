@@ -1,0 +1,99 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
+  {
+    "name": "Entire Map",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/grid.png"
+  },
+  {
+    "name": "Dwellings",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dwellings.png"
+  },
+  {
+    "name": "Volcana",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Volcana.png"
+  },
+  {
+    "name": "Jungle",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Jungle.png"
+  },
+  {
+    "name": "Olmec",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Olmec.png"
+  },
+  {
+    "name": "Tide Pool",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Tidepool.png"
+  },
+  {
+    "name": "Abzu",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Abzu.png"
+  },
+  {
+    "name": "Temple",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Temple.png"
+  },
+  {
+    "name": "Duat",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Duat.png"
+  },
+  {
+    "name": "Ice Caves",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Ice.png"
+  },
+  {
+    "name": "Neo Babylon",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Neobabylon.png"
+  },
+  {
+    "name": "Sunken City",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Sunken.png"
+  },
+  {
+    "name": "Eggplant World",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Eggplant.png"
+  },
+  {
+    "name": "Normal Items",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Normalitems.png"
+  },
+  {
+    "name": "Special Items",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Specialitems.png"
+  },
+  {
+    "name": "NPCs",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Specialpeople.png"
+  }
+]
