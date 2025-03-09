@@ -19,7 +19,7 @@
         ]
       },
       {
-        "name": "Dart Trap",
+        "name": "Arrow Trap",
         "map_locations": [
           {
             "map": "Dwellings",
@@ -29,7 +29,7 @@
         ],
         "sections": [
           {
-            "name": "Dart Trap Journal Entry"
+            "name": "Arrow Trap Journal Entry"
           }
         ]
       },
@@ -152,7 +152,7 @@
         ],
         "sections": [
           {
-            "name": "Ghist Journal Entry"
+            "name": "Ghist Shopkeeper Journal Entry"
           }
         ]
       },
@@ -342,7 +342,7 @@
         ]
       },
       {
-        "name": "Liz",
+        "name": "Coffin in Jungle",
         "map_locations": [
           {
             "map": "Jungle",
@@ -382,7 +382,7 @@
         ],
         "sections": [
           {
-            "name": "Parsely Journal Entry"
+            "name": "Parsley Journal Entry"
           }
         ]
       },
@@ -419,7 +419,7 @@
       {
         "name": "Hedjet",
         "access_rules":[
-          "[udjat]"
+          "hedjet, [udjat]"
         ],
         "map_locations": [
           {
@@ -677,7 +677,7 @@
       {
         "name": "Crown",
         "access_rules":[
-          "[udjat]"
+          "[udjat],crown"
         ],
         "map_locations": [
           {
@@ -1002,7 +1002,7 @@
       {
         "name": "Excalibur",
         "access_rules": [
-          "crown,excalibur","hedjet,excalibur"
+          "crown,excalibur,[udjat]","hedjet,excalibur,[udjat]"
         ],
         "map_locations": [
           {
@@ -1265,6 +1265,9 @@
         "children": [
           {
             "name": "Kingu",
+            "access_rules": [
+              "[excalibur],[hedjet],[udjat]","[excalibur],[crown],[udjat]"
+            ],
             "map_locations": [
               {
                 "map": "Abzu",
@@ -1331,25 +1334,6 @@
         "sections": [
           {
             "name": "Alien Compass Journal Entry"
-          }
-        ]
-      },
-
-      {
-        "name": "Coffin in City of gold",
-        "access_rules":[
-          "scepter,crown","scepter,hedjet"
-        ],
-        "map_locations": [
-          {
-            "map": "Temple",
-            "x": 350,
-            "y": 400
-          }
-        ],
-        "sections": [
-          {
-            "name": "Au Journal Entry"
           }
         ]
       },
@@ -1503,7 +1487,25 @@
         ],
         "sections": [
           {
-            "name": "Gianta Crush Trap Journal Entry"
+            "name": "Giant Crush Trap Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Coffin in City of gold",
+        "access_rules":[
+          "scepter,crown,[udjat]","scepter,hedjet,[udjat]"
+        ],
+        "map_locations": [
+          {
+            "map": "Temple",
+            "x": 350,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Au Journal Entry"
           }
         ]
       },
@@ -1523,8 +1525,9 @@
         ]
       },
       {
+        "name": "Duat",
         "access_rules": [
-          "scepter,ankh,crown,[udjat]","scepter,ankh,hedjet[udjat]"
+          "scepter,ankh,crown,[udjat]","scepter,ankh,hedjet,[udjat]"
         ],
         "children":[
           {
@@ -1940,8 +1943,9 @@
     ],
     "children": [
       {
+        "name": "Sunken City",
         "access_rules": [
-          "[crown],[excalibur]","[crown],[scepter]","[hedjet],[excalibur]","[hedjet],[excalibur]"
+          "[crown],[excalibur]","[crown],[scepter]","[hedjet],[excalibur]","[hedjet],[scepter]"
         ],
         "children": [ 
           {
@@ -2115,7 +2119,7 @@
           {
             "name": "Celestial Jelly",
             "access_rules": [
-              "HouYisBow,ArrowOfLight"
+              "HouYisBow,ArrowOfLight,cosmic_ocean"
             ],
             "map_locations": [
               {
@@ -2161,8 +2165,9 @@
             ]
           },
           {
+            "name": "Eggplant World",
             "access_rules": [
-              "eggplant"
+              "[eggplant]"
             ],
             "children":[
               {
@@ -2176,7 +2181,7 @@
                 ],
                 "sections": [
                   {
-                    "name": "Eggplup Journey Entry"
+                    "name": "Eggplup Journal Entry"
                   }
                 ]
               },
@@ -2411,6 +2416,9 @@
       },
       {
         "name": "Break Enough Pots, Do Enough Moon Challenges or Tiamat Guarantee Spawn",
+        "access_rules" : [
+          "[neo_babylon]"
+        ],
         "map_locations": [
           {
             "map": "NPCs",
@@ -2894,7 +2902,7 @@
         ]
       },
       {
-        "name": "Camera",
+        "name": "Parachute",
         "map_locations": [
           {
             "map": "Normal Items",
@@ -2903,7 +2911,7 @@
           }
         ],
         "sections": [
-          { "name": "Camera Journal Entry" }
+          { "name": "Parachute Journal Entry" }
         ]
       },
       {
@@ -2977,7 +2985,7 @@
         ],
         "sections": [
           { "ref": "Fall in Spikes/Spikes Journal Entry" },
-          { "ref": "Dart Trap/Dart Trap Journal Entry" },
+          { "ref": "Arrow Trap/Arrow Trap Journal Entry" },
           { "ref": "Punch Trap/Punch Trap Journal Entry" },
           { "ref": "Udjat Eye/Udjat Eye Journal Entry" },
           { "ref": "Bat/Bat Journal Entry" },
@@ -2985,7 +2993,7 @@
           { "ref": "Skeleton/Skeleton Journal Entry" },
           { "ref": "Giant Log, Golden Idol Trap/Log Trap Journal Entry" },
           { "ref": "Yang/Yang Journal Entry" },
-          { "ref": "1-4 Ghostdoor Under Quillback/Ghist Journal Entry" },
+          { "ref": "1-4 Ghostdoor Under Quillback/Ghist Shopkeeper Journal Entry" },
           { "ref": "Mole/Mole Journal Entry" },
           { "ref": "Spider/Spider Journal Entry" },
           { "ref": "Coffin 1-4 Bottom near Exit/Alto Journal Entry" },
@@ -3073,7 +3081,7 @@
           { "ref": "Pitcher's Mitt/Pitcher's Mitt Journal Entry" },
           { "ref": "Spike Shoes/Spike Shoes Journal Entry" },
           { "ref": "Telepack/Telepack Journal Entry" },
-          { "ref": "Camera/Camera Journal Entry" },
+          { "ref": "Parachute/Parachute Journal Entry" },
           { "ref": "Freeze Ray/Freeze Ray Journal Entry" },
           { "ref": "Shield/Shield Journal Entry" },
           { "ref": "Rope Pile/Rope Pile Journal Entry" },
@@ -3092,9 +3100,9 @@
         "sections": [
           { "ref": "Giant Spider/Giant Spider Journal Entry" },
           { "ref": "Black Market Coffin/Nekka Journal Entry" },
-          { "ref": "Liz/Liz Journal Entry" },
+          { "ref": "Coffin in Jungle/Liz Journal Entry" },
           { "ref": "Boomerang/Boomerang Journal Entry" },
-          { "ref": "Parsley/Parsely Journal Entry" },
+          { "ref": "Parsley/Parsley Journal Entry" },
           { "ref": "Mosquito/Mosquito Journal Entry" },
           { "ref": "Witch Doctor/Witch Doctor Journal Entry" },
           { "ref": "Hedjet/Hedjet Journal Entry" },
@@ -3222,12 +3230,12 @@
           { "ref": "Sorceress/Sorceress Journal Entry" },
           { "ref": "Temple - Complete the Star Challenge/Elixir Journal Entry" },
           { "ref": "Mummy/Mummy Journal Entry" },
-          { "ref": "Giant Crush Block/Gianta Crush Trap Journal Entry" },
+          { "ref": "Giant Crush Block/Giant Crush Trap Journal Entry" },
           { "ref": "Coffin in Temple/Valerie Journal Entry" }
         ]
       },
       {
-        "name": "Duat",
+        "name": "City of Gold",
         "map_locations": [
           {
             "map": "Entire Map",
@@ -3348,7 +3356,7 @@
           }
         ],
         "sections": [
-          { "ref": "Eggplup/Eggplup Journey Entry" },
+          { "ref": "Eggplup/Eggplup Journal Entry" },
           { "ref": "Eggplant Crown/Eggplant Crown Journal Entry" },
           { "ref": "Eggplant Minister/Eggplant Minister Journal Entry" },
           { "ref": "Eggplant King/Eggplant King Journal Entry" }

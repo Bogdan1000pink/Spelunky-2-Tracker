@@ -228,32 +228,6 @@
                       "type": "layout",
                       "key": "Progressive_Items"
                     }
-                  },
-                  {
-                    "type": "group",
-                    "header": "                                 Progressive Worlds",
-                    "margin": "0,0,0,0",
-                    "dock": "middle",
-                    "content": {
-                      "type": "layout",
-                      "key": "Progressive_Worlds"
-                    }
-                  },
-                  {
-                    "type": "group",
-                    "header": "                              |                             ",
-                    "dock": "left",
-                    "content": {
-                      "type": "layout"
-                    }
-                  },
-                  {
-                    "type": "group",
-                    "header": "                         |                                               ",
-                    "dock": "right",
-                    "content": {
-                      "type": "layout"
-                    }
                   }
               ]              
             }

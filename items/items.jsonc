@@ -81,9 +81,8 @@
 	{
 		"name": "Starting Health",
 		"type": "consumable",
-		"initial_quantity": 4,
+		"initial_quantity": 0,
 		"increment": 1,
-		"min_quantity": 4,
 		"max_quantity": 20,
 		"img": "images/items/progressive/Cooked_Turkey.png",
 		"codes": "hp"
@@ -91,9 +90,8 @@
 	{
 		"name": "Starting Bomb",
 		"type": "consumable",
-		"initial_quantity": 4,
+		"initial_quantity": 0,
 		"increment": 1,
-		"min_quantity": 4,
 		"max_quantity": 10,
 		"img": "images/items/progressive/Bomb_Box.png",
 		"codes": "bombs"
@@ -101,9 +99,8 @@
 	{
 		"name": "Starting Rope",
 		"type": "consumable",
-		"initial_quantity": 4,
+		"initial_quantity": 0,
 		"increment": 1,
-		"min_quantity": 4,
 		"max_quantity": 10,
 		"img": "images/items/progressive/Rope_Pile.png",
 		"codes": "ropes"
@@ -132,40 +129,18 @@
 		"codes": "eggplant"
 	},
 	{
-		"name": "JUNGLE / VOLCANA",
-		"type": "toggle",
-		"img": "images/items/worlds/World_2.png",
-		"codes": "secondworld"
-	},
-	{
-		"name": "OLMEC'S LAYER",
-		"type": "toggle",
-		"img": "images/items/worlds/OlmecWorld.png",
-		"codes": "olmec_lair"
-	},
-	{
-		"name": "TIDE POOL / TEMPLE",
-		"type": "toggle",
-		"img": "images/items/worlds/World_4.png",
-		"codes": "fourthworld"
-	},
-	{
-		"name": "ICE CAVES",
-		"type": "toggle",
-		"img": "images/items/worlds/IceWorld.png",
-		"codes": "ice_caves"
-	},
-	{
-		"name": "NEO BABYLON",
-		"type": "toggle",
-		"img": "images/items/worlds/NeoWorld.png",
-		"codes": "neo_babylon"
-	},
-	{
-		"name": "SUNKEN CITY",
-		"type": "toggle",
-		"img": "images/items/worlds/SunkenWorld.png",
-		"codes": "sunken_city"
+		"name": "Progressive World Unlocks",
+		"type": "progressive",
+		"loop": false,
+		"stages": [
+			{"img": "images/items/worlds/World_2.png","codes": "secondworld"},
+			{"img": "images/items/worlds/OlmecWorld.png","codes": "olmec_lair"},
+			{"img": "images/items/worlds/World_4.png","codes": "fourthworld"},
+			{"img": "images/items/worlds/IceWorld.png","codes": "ice_caves"},
+			{"img": "images/items/worlds/NeoWorld.png","codes": "neo_babylon"},
+			{"img": "images/items/worlds/SunkenWorld.png","codes": "sunken_city"},
+			{"img": "images/items/worlds/CosmicOcean.png","codes": "cosmic_ocean"}
+		]
 	}
 ]
 

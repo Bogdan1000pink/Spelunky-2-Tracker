@@ -1,8 +1,8 @@
 # Spelunky2 Poptracker Package
 
-This a poptracker package for Spelunky2.
+This a poptracker AP package for Spelunky2.
 
-This package is still in development with plans to add AP support, right now offering manual journal entries.
+This package is mainly done maybe with a bit of logic missing, report all issues to me on discord @Bogdan100pink
 
 ## Installation
 

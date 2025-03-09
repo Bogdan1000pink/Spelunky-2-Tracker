@@ -42,7 +42,7 @@
                         "item_size": 100,
                         "rows": [
                             ["hp","bombs","ropes","eggplant"],
-                            ["paste","compass","COCheckpoint"]
+                            ["paste","compass","secondworld"]
                         ]
                     }
                 ]
@@ -62,11 +62,10 @@
                     {
                         "type": "itemgrid",
                         "item_margin": "-3, 1",
-                        "h_alignment": "middle",
+                        "h_alignment": "right",
                         "item_size": 100,
                         "rows": [
-                            ["secondworld","olmec_lair","fourthworld"],
-                            ["ice_caves","neo_babylon","sunken_city"]
+                            ["secondworld"]
                         ]
                     }
                 ]

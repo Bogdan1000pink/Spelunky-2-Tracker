@@ -37,3 +37,6 @@ end
 Tracker:AddLayouts("layouts/items.jsonc")
 Tracker:AddLayouts("layouts/tracker.jsonc")
 Tracker:AddLayouts("layouts/broadcast.jsonc")
+if PopVersion and PopVersion >= "0.18.0" then
+	ScriptHost:LoadScript("scripts/autotracking.lua")
+end
