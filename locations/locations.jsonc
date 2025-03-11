@@ -1019,6 +1019,9 @@
       },
       {
         "name": "Use Clone Gun on Excalibur",
+        "access_rules": [
+          "excalibur"
+        ],
         "map_locations": [
           {
             "map": "Tide Pool",
@@ -1304,11 +1307,14 @@
     "name": "Temple",
     "overlay_background":"#40000000",
     "access_rules": [
-      ["fourthworld"]
+      "fourthworld"
     ],
     "children": [
       {
         "name": "Kill Anubis and take his Weapon",
+        "access_rules": [
+          "scepter"
+        ],
         "map_locations": [
           {
             "map": "Temple",
