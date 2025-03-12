@@ -1,6 +1,6 @@
 # Spelunky2 Poptracker Package
 
-!!DATE OF THE LAST UPDATE!!: 11/3/2025 (dd/mm/year)
+!!DATE OF THE LAST UPDATE!!: 12/3/2025 (dd/mm/year)
 
 This a poptracker AP package for Spelunky2.
 
