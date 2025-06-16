@@ -64,6 +64,7 @@ function onClear(slot_data)
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here
     end
+    Archipelago:SetNotify({string.format("%s_%s_worldTab", Archipelago.PlayerNumber, Archipelago.TeamNumber)})
 end
 
 -- called when an item gets collected
@@ -188,6 +189,18 @@ function onBounce(json)
     -- your code goes here
 end
 
+function onNotify(key, value, old_value)
+    updateEvents(value)
+end
+
+function onNotifyLaunch(key, value)
+    updateEvents(value)
+end
+
+function updateEvents(value)
+    Tracker:UiHint("ActivateTab", value)
+end
+
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
@@ -195,3 +208,5 @@ Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
