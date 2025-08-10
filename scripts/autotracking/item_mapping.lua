@@ -18,6 +18,6 @@ ITEM_MAPPING = {
     [40] = {"paste", "toggle"},
     [42] = {"compass", "progressive"},
     [43] = {"eggplant", "toggle"},
-    [45] = {"COCheckpoint", "consumable"},
-    [46] = {"secondworld", "progressive"}
+    [44] = {"COCheckpoint", "consumable"},
+    [49] = {"secondworld", "progressive"}
 }

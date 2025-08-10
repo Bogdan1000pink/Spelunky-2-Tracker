@@ -102,23 +102,6 @@ function onItem(index, item_id, item_name, player_number)
             end
         elseif v[2] == "consumable" then
             obj.AcquiredCount = obj.AcquiredCount + obj.Increment
-			for _, itm in pairs(ITEM_MAPPING) do
-				if v[1] == "progressive_animatronics" then
-					if itm[3] == SLOT_DATA["Progressive Animatronics Order"][obj.AcquiredCount] then
-						Tracker:FindObjectForCode(itm[1]).Active = true
-					end
-				end
-				if v[1] == "progressive_chips" then
-					if itm[3] == SLOT_DATA["Progressive Chips Order"][obj.AcquiredCount] then
-						Tracker:FindObjectForCode(itm[1]).Active = true
-					end
-				end
-				if v[1] == "progressive_bytes" then
-					if itm[3] == SLOT_DATA["Progressive Bytes Order"][obj.AcquiredCount] then
-						Tracker:FindObjectForCode(itm[1]).Active = true
-					end
-				end
-			end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
         end
@@ -147,7 +130,6 @@ function onItem(index, item_id, item_name, player_number)
         -- add snes interface functions here for local item tracking
     end
 end
-
 --called when a location gets cleared
 function onLocation(location_id, location_name)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -171,7 +153,6 @@ function onLocation(location_id, location_name)
         print(string.format("onLocation: could not find object for code %s", v[1]))
     end
 end
-
 -- called when a locations is scouted
 function onScout(location_id, location_name, item_id, item_name, item_player)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -180,13 +161,11 @@ function onScout(location_id, location_name, item_id, item_name, item_player)
     end
     -- not implemented yet :(
 end
-
 -- called when a bounce message is received 
 function onBounce(json)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onBounce: %s", dump_table(json)))
     end
-    -- your code goes here
 end
 
 function onNotify(key, value, old_value)
@@ -206,7 +185,5 @@ end
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
--- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
