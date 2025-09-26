@@ -6,26 +6,29 @@
     "margin": "0,0",
     "content": [
       {
-        "type": "array",
+        "type": "group",
+        "header": "broadcast",
         "orientation": "horizontal",
         "margin": "0,0",
         "content": [
-          {
-            "type": "layout",
-            "key": "CO_Items"
-          }
-        ]
-      },
-      {
-        "type": "dock",
-        "dock": "bottom",
-        "margim": "0,0",
-        "content": [
-          {
-            "type": "layout",
-            "key": "Progressive_Items"
-          }
-        ]
+            {
+
+              "type": "layout",
+              "dock": "middle",
+              "key ": "Permanent_Upgrades"
+            },
+            {
+              "type": "layout",
+              "dock": "right",
+              "key": "Waddler_Upgrades"
+            },
+            {
+              "type": "layout",
+              "dock": "down",
+              "key": "Unlocked_Characters"
+            }
+          ]
+        
       }
     ]
   }

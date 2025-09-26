@@ -167,7 +167,6 @@
                   "type": "group",
                   "dock": "top",
                   "header": "Items",
-                  "margin": ",",
                   "content": {
                     "type": "dock",
                     "content": [

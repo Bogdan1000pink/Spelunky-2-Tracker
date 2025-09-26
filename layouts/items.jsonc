@@ -12,11 +12,11 @@
                 "h_alignment": "middle",
                 "item_size": 40,
                 "rows": [
-                    ["hp", "bombs", "ropes", "secondworld", "SAnkh", "Scamera", "Scape"],
-                    ["SClimbingGloves", "SCloneGun", "Scompass", "Seggplant", "SEggplantCrown", "Selixir", "Sclover"],
-                    ["SFreezeRay", "Shoverpack", "Sjetpack", "Skapala", "Smachete", "Smattock", "Spaste"],
-                    ["SPitchersMitt", "SPlasmaCannon", "Spowerpack", "SMetalShield", "SSkeletonKey", "Sspectacles", "SSpikeShoes"],
-                    ["SSpringShoes", "Stelepack", "Steleporter", "STrueCrown", "SVladsCape", "Swebgun"]        
+                    ["hp", "bombs", "ropes", "secondworld", "COCheckpoint", "SAnkh", "Scamera"],
+                    ["Scape", "SClimbingGloves", "SCloneGun", "Scompass", "Seggplant", "SEggplantCrown", "Selixir"],
+                    ["Sclover", "SFreezeRay", "Shoverpack", "Sjetpack", "Skapala", "Smachete", "Smattock"],
+                    ["Spaste", "SPitchersMitt", "SPlasmaCannon", "Spowerpack", "SMetalShield", "SSkeletonKey", "Sspectacles"],
+                    ["SSpikeShoes", "SSpringShoes", "Stelepack", "Steleporter", "STrueCrown", "SVladsCape", "Swebgun"]        
                 ]
             }
         ]
