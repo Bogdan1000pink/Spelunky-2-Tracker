@@ -9,7 +9,7 @@ This package is done, report all issues to me on discord @Bogdan100pink
 This is version 4.0 of the tracker
 
 ## !! WARNING !!
-This tracker works only with ddrkhat (on discord) APWorld. For Eszenn (on discord) APWorld use the 3.0 version of the tracker
+This tracker works only with ddrkhat (on discord) APWorld. For Eszenn's (on discord) APWorld, use the 3.0 version of the tracker
 ## !!!!!!!!!!!!!
 
 ## Installation
