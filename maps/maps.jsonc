@@ -79,21 +79,33 @@
     "img": "images/maps/Eggplant.png"
   },
   {
-    "name": "Normal Items",
+    "name": "Items 1",
     "location_size": 12,
     "location_border_thickness": 2,
-    "img": "images/maps/Normalitems.png"
+    "img": "images/maps/items1.png"
   },
   {
-    "name": "Special Items",
+    "name": "Items 2",
     "location_size": 12,
     "location_border_thickness": 2,
-    "img": "images/maps/Specialitems.png"
+    "img": "images/maps/items2.png"
   },
   {
-    "name": "NPCs",
+    "name": "Items 3",
     "location_size": 12,
     "location_border_thickness": 2,
-    "img": "images/maps/Specialpeople.png"
-  }
+    "img": "images/maps/Items3.png"
+  },
+  {
+    "name": "Special Entities 1",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Specialpeople1.png"
+  },
+  {
+    "name": "Special Entities 2",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/Specialpeople2.png"
+  },
 ]

@@ -1,4 +1,4 @@
-[
+ [
   {
     "name": "Dwellings",
     "overlay_background":"#40000000",
@@ -820,8 +820,8 @@
         "map_locations": [
           {
             "map": "Volcana",
-            "x": 70,
-            "y": 410
+            "x": 765,
+            "y": 180
           }
         ],
         "sections": [
@@ -835,8 +835,8 @@
         "map_locations": [
           {
             "map": "Volcana",
-            "x": 210,
-            "y": 410
+            "x": 765,
+            "y": 270
           }
         ],
         "sections": [
@@ -853,8 +853,8 @@
         "map_locations": [
           {
             "map": "Volcana",
-            "x": 350,
-            "y": 410
+            "x": 765,
+            "y": 70
           }
         ],
         "sections": [
@@ -868,13 +868,31 @@
         "map_locations": [
           {
             "map": "Volcana",
-            "x": 480,
-            "y": 410
+            "x": 610,
+            "y": 70
           }
         ],
         "sections": [
           {
             "name": "Powder Box Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Sliding Door in Vlad's Castle",
+        "access_rules": [
+          "[udjat]"
+        ],
+        "map_locations": [
+          {
+            "map": "Volcana",
+            "x": 610,
+            "y": 230
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sliding Door Journal Entry"
           }
         ]
       }
@@ -1915,7 +1933,7 @@
           {
             "map": "Neo Babylon",
             "x": 345,
-            "y": 100
+            "y": 50
           }
         ],
         "sections": [
@@ -1930,12 +1948,27 @@
           {
             "map": "Neo Babylon",
             "x": 345,
-            "y": 220
+            "y": 170
           }
         ],
         "sections": [
           {
             "name": "Airyn Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Kill Tiamat and Beat the Game",
+        "map_locations": [
+          {
+            "map": "Neo Babylon",
+            "x": 345,
+            "y": 300
+          }
+        ],
+        "sections": [
+          {
+            "name": "Guy Spelunky Journal Entry"
           }
         ]
       }
@@ -2242,70 +2275,42 @@
       }
     ]
   },
+                                /// This is where all Special Entities located
+                                /// First set of entities
   {
     "name": "NPCs",
     "overlay_background":"#40000000",
     "children": [
       {
-        "name": "Leprechaun",
-        "access_rules": [
+        "name": "Shopkeeper",
+        "map_locations": [
+          {
+            "map": "Special Entities 1",
+            "x": 55,
+            "y": 50
+          }
+        ],
+        "sections": [
+          {
+            "name": "Shopkeeper Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Tun",
+        "access_rules":[
           "secondworld"
         ],
         "map_locations": [
           {
-            "map": "NPCs",
-            "x": 50,
+            "map": "Special Entities 1",
+            "x": 205,
             "y": 50
           }
         ],
         "sections": [
           {
-            "name": "Leprechaun Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Monty",
-        "map_locations": [
-          {
-            "map": "NPCs",
-            "x": 200,
-            "y": 50
-          }
-        ],
-        "sections": [
-          {
-            "name": "Monty Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Percy",
-        "map_locations": [
-          {
-            "map": "NPCs",
-            "x": 340,
-            "y": 50
-          }
-        ],
-        "sections": [
-          {
-            "name": "Percy Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Poochi",
-        "map_locations": [
-          {
-            "map": "NPCs",
-            "x": 460,
-            "y": 50
-          }
-        ],
-        "sections": [
-          {
-            "name": "Poochi Journal Entry"
+            "name": "Tun Journal Entry"
           }
         ]
       },
@@ -2316,8 +2321,8 @@
         ],
         "map_locations": [
           {
-            "map": "NPCs",
-            "x": 50,
+            "map": "Special Entities 1",
+            "x": 55,
             "y": 160
           }
         ],
@@ -2331,8 +2336,8 @@
         "name": "Destroy Multiple Kali Alters",
         "map_locations": [
           {
-            "map": "NPCs",
-            "x": 200,
+            "map": "Special Entities 1",
+            "x": 205,
             "y": 160
           }
         ],
@@ -2343,50 +2348,17 @@
         ]
       },
       {
-        "name": "Tun",
-        "access_rules":[
-          "secondworld"
-        ],
+        "name": "Terra Tunnel",
         "map_locations": [
           {
-            "map": "NPCs",
-            "x": 340,
-            "y": 160
-          }
-        ],
-        "sections": [
-          {
-            "name": "Tun Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Sacrifice a Golden Idol to Kali",
-        "map_locations": [
-          {
-            "map": "NPCs",
-            "x": 460,
-            "y": 160
-          }
-        ],
-        "sections": [
-          {
-            "name": "Golden Monkey Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Caveman Shopkeeper (yes, they are different)",
-        "map_locations": [
-          {
-            "map": "NPCs",
-            "x": 50,
+            "map": "Special Entities 1",
+            "x": 55,
             "y": 290
           }
         ],
         "sections": [
           {
-            "name": "Caveman Shopkeeper Journal Entry"
+            "name": "Terra Tunnel Journal Entry"
           }
         ]
       },
@@ -2394,8 +2366,8 @@
         "name": "Touch the Ghost",
         "map_locations": [
           {
-            "map": "NPCs",
-            "x": 200,
+            "map": "Special Entities 1",
+            "x": 205,
             "y": 290
           }
         ],
@@ -2405,18 +2377,115 @@
           }
         ]
       },
+                                              /// Second set of entities
       {
-        "name": "Shopkeeper",
+        "name": "Percy",
         "map_locations": [
           {
-            "map": "NPCs",
-            "x": 340,
-            "y": 290
+            "map": "Special Entities 2",
+            "x": 50,
+            "y": 40
           }
         ],
         "sections": [
           {
-            "name": "Shopkeeper Journal Entry"
+            "name": "Percy Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Poochi",
+        "map_locations": [
+          {
+            "map": "Special Entities 2",
+            "x": 180,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {
+            "name": "Poochi Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Monty",
+        "map_locations": [
+          {
+            "map": "Special Entities 2",
+            "x": 305,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {
+            "name": "Monty Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "The Dead are Restless, Dead Cavemen while Cursed or Guaranted Spawn in 4-2 Tide Pool",
+        "access_rules": [
+          "[fourthworld]"
+        ],
+        "map_locations": [
+          {
+            "map": "Special Entities 2",
+            "x": 50,
+            "y": 150
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ghist Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Sacrifice a Golden Idol to Kali",
+        "map_locations": [
+          {
+            "map": "Special Entities 2",
+            "x": 180,
+            "y": 150
+          }
+        ],
+        "sections": [
+          {
+            "name": "Golden Monkey Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Hired Hand",
+        "map_locations": [
+          {
+            "map": "Special Entities 2",
+            "x": 305,
+            "y": 150
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hired Hand Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Leprechaun",
+        "access_rules": [
+          "secondworld"
+        ],
+        "map_locations": [
+          {
+            "map": "Special Entities 2",
+            "x": 50,
+            "y": 280
+          }
+        ],
+        "sections": [
+          {
+            "name": "Leprechaun Journal Entry"
           }
         ]
       },
@@ -2427,9 +2496,9 @@
         ],
         "map_locations": [
           {
-            "map": "NPCs",
-            "x": 460,
-            "y": 290
+            "map": "Special Entities 2",
+            "x": 180,
+            "y": 280
           }
         ],
         "sections": [
@@ -2437,20 +2506,390 @@
             "name": "Scorpion Journal Entry"
           }
         ]
+      },
+      {
+        "name": "Caveman Shopkeeper (yes, they are different)",
+        "map_locations": [
+          {
+            "map": "Special Entities 2",
+            "x": 305,
+            "y": 280
+          }
+        ],
+        "sections": [
+          {
+            "name": "Caveman Shopkeeper Journal Entry"
+          }
+        ]
       }
     ]
   },
   {
-    "name": "Special Items",
+    "name": "Items",
     "overlay_background":"#40000000",
     "children": [
+                                              /// First set of items
+      {
+        "name": "Crossbow",
+        "map_locations": [
+          {
+            "map": "Items 1",
+            "x": 40,
+            "y": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Crossbow Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Freeze Ray",
+        "map_locations": [
+          {
+            "map": "Items 1",
+            "x": 160,
+            "y": 30
+          }
+        ],
+        "sections": [
+          { "name": "Freeze Ray Journal Entry" }
+        ]
+      },
+            {
+        "name": "Shotgun",
+        "map_locations": [
+          {
+            "map": "Items 1",
+            "x": 270,
+            "y": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Shotgun Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Web Gun",
+        "map_locations": [
+          {
+            "map": "Items 1",
+            "x": 360,
+            "y": 30
+          }
+        ],
+        "sections": [
+          {
+            "name": "Web Gun Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Bomb Box",
+        "map_locations": [
+          {
+            "map": "Items 1",
+            "x": 40,
+            "y": 110
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bomb Box Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Rope Pile",
+        "map_locations": [
+          {
+            "map": "Items 1",
+            "x": 160,
+            "y": 110
+          }
+        ],
+        "sections": [
+          {
+            "name": "Rope Pile Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Bomb Bag",
+        "map_locations": [
+          {
+            "map": "Items 1",
+            "x": 270,
+            "y": 110
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bomb Bag Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Mattock",
+        "map_locations": [
+          {
+            "map": "Items 1",
+            "x": 360,
+            "y": 110
+          }
+        ],
+        "sections": [
+          {
+            "name": "Mattock Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Jetpack",
+        "map_locations": [
+          {
+            "map": "Items 1",
+            "x": 40,
+            "y": 230
+          }
+        ],
+        "sections": [
+          {
+            "name": "Jetpack Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Hoverpack",
+        "map_locations": [
+          {
+            "map": "Items 1",
+            "x": 160,
+            "y": 230
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hoverpack Journal Entry"
+          }
+        ]
+      },
+       {
+        "name": "Telepack",
+        "map_locations": [
+          {
+            "map": "Items 1",
+            "x": 270,
+            "y": 230
+          }
+        ],
+        "sections": [
+          { "name": "Telepack Journal Entry"  }
+        ]
+      },
+      {
+        "name": "Powerpack",
+        "map_locations": [
+          {
+            "map": "Items 1",
+            "x": 360,
+            "y": 230
+          }
+        ],
+        "sections": [
+          { "name": "Powerpack Journal Entry" }
+        ]
+      },
+                                                    /// Second set of items
+      {
+        "name": "Pitcher's Mitt",
+        "map_locations": [
+          {
+            "map": "Items 2",
+            "x": 40,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {
+            "name": "Pitcher's Mitt Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Climbing Gloves",
+        "map_locations": [
+          {
+            "map": "Items 2",
+            "x": 120,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {
+            "name": "Climbing Gloves Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Spike Shoes",
+        "map_locations": [
+          {
+            "map": "Items 2",
+            "x": 200,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {  "name": "Spike Shoes Journal Entry"  }
+        ]
+      },
+      {
+        "name": "Spring Shoes",
+        "map_locations": [
+          {
+            "map": "Items 2",
+            "x": 282,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {
+            "name": "Spring Shoes Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Cape",
+        "map_locations": [
+          {
+            "map": "Items 2",
+            "x": 40,
+            "y": 105
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cape Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Spectacles",
+        "map_locations": [
+          {
+            "map": "Items 2",
+            "x": 120,
+            "y": 105
+          }
+        ],
+        "sections": [
+          {
+            "name": "Spectacles Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Skeleton Key",
+        "map_locations": [
+          {
+            "map": "Items 2",
+            "x": 200,
+            "y": 105
+          }
+        ],
+        "sections": [
+          {
+            "name": "Skeleton Key Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Compass",
+        "map_locations": [
+          {
+            "map": "Items 2",
+            "x": 282,
+            "y": 105
+          }
+        ],
+        "sections": [
+          {
+            "name": "Compass Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Machette",
+        "map_locations": [
+          {
+            "map": "Items 2",
+            "x": 40,
+            "y": 170
+          }
+        ],
+        "sections": [
+          {
+            "name": "Machette Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Teleporter",
+        "map_locations": [
+          {
+            "map": "Items 2",
+            "x": 120,
+            "y": 170
+          }
+        ],
+        "sections": [
+          {
+            "name": "Teleporter Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Camera",
+        "map_locations": [
+          {
+            "map": "Items 2",
+            "x": 200,
+            "y": 170
+          }
+        ],
+        "sections": [
+          {
+            "name": "Camera Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Paste",
+        "map_locations": [
+          {
+            "map": "Items 2",
+            "x": 282,
+            "y": 170
+          }
+        ],
+        "sections": [
+          {
+            "name": "Paste Journal Entry"
+          }
+        ]
+      },
+                                                /// Third set of items
       {
         "name": "Enough Kali Sacrificies or Queen Bee Drop",
         "map_locations": [
           {
-            "map": "Special Items",
+            "map": "Items 3",
             "x": 40,
-            "y": 50
+            "y": 30
           }
         ],
         "sections": [
@@ -2463,9 +2902,9 @@
         "name": "Golden Idol",
         "map_locations": [
           {
-            "map": "Special Items",
-            "x": 188,
-            "y": 50
+            "map": "Items 3",
+            "x": 110,
+            "y": 30
           }
         ],
         "sections": [
@@ -2478,9 +2917,9 @@
         "name": "Ghost Vase",
         "map_locations": [
           {
-            "map": "Special Items",
-            "x": 320,
-            "y": 50
+            "map": "Items 3",
+            "x": 185,
+            "y": 30
           }
         ],
         "sections": [
@@ -2490,57 +2929,12 @@
         ]
       },
       {
-        "name": "Eggplant",
-        "map_locations": [
-          {
-            "map": "Special Items",
-            "x": 40,
-            "y": 160
-          }
-        ],
-        "sections": [
-          {
-            "name": "Eggplant Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Meet Beg while Cursed",
-        "map_locations": [
-          {
-            "map": "Special Items",
-            "x": 188,
-            "y": 160
-          }
-        ],
-        "sections": [
-          {
-            "name": "The True Crown Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Blow up a Turkey (Alive or Dead)",
-        "map_locations": [
-          {
-            "map": "Special Items",
-            "x": 320,
-            "y": 160
-          }
-        ],
-        "sections": [
-          {
-            "name": "Cooked Turkey Journal Entry"
-          }
-        ]
-      },
-      {
         "name": "Clover",
         "map_locations": [
           {
-            "map": "Special Items",
-            "x": 40,
-            "y": 290
+            "map": "Items 3",
+            "x": 255,
+            "y": 30
           }
         ],
         "sections": [
@@ -2550,17 +2944,35 @@
         ]
       },
       {
-        "name": "Sacrifice Enough and Get 18 Favor Points",
+        "name": "Hou Yi's Bow",
+        "access_rules": [
+          "HouYisBow, Secondworld"
+        ],
         "map_locations": [
           {
-            "map": "Special Items",
-            "x": 188,
-            "y": 290
+            "map": "Items 3",
+            "x": 40,
+            "y": 110
           }
         ],
         "sections": [
           {
-            "name": "Kapala Journal Entry"
+            "name": "Hou Yi's Bow Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Meet Beg while Cursed",
+        "map_locations": [
+          {
+            "map": "Items 3",
+            "x": 110,
+            "y": 110
+          }
+        ],
+        "sections": [
+          {
+            "name": "The True Crown Journal Entry"
           }
         ]
       },
@@ -2577,9 +2989,9 @@
             "name": "Kill Kingu or Osirus",
             "map_locations": [
               {
-                "map": "Special Items",
-                "x": 320,
-                "y": 290
+                "map": "Items 3",
+                "x": 185,
+                "y": 110
               }
             ],
             "sections": [
@@ -2589,331 +3001,27 @@
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Normal Items",
-    "overlay_background":"#40000000",
-    "children": [
-      {
-        "name": "Paste",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 42,
-            "y": 45
-          }
-        ],
-        "sections": [
-          {
-            "name": "Paste Journal Entry"
-          }
-        ]
       },
       {
-        "name": "Machette",
+        "name": "Metal Shield",
         "map_locations": [
           {
-            "map": "Normal Items",
-            "x": 160,
-            "y": 45
+            "map": "Items 3",
+            "x": 260,
+            "y": 110
           }
         ],
         "sections": [
-          {
-            "name": "Machette Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Camera",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 310,
-            "y": 45
-          }
-        ],
-        "sections": [
-          {
-            "name": "Camera Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Bomb Box",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 440,
-            "y": 45
-          }
-        ],
-        "sections": [
-          {
-            "name": "Bomb Box Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Cape",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 580,
-            "y": 45
-          }
-        ],
-        "sections": [
-          {
-            "name": "Cape Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Climbing Gloves",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 42,
-            "y": 150
-          }
-        ],
-        "sections": [
-          {
-            "name": "Climbing Gloves Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Shotgun",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 160,
-            "y": 150
-          }
-        ],
-        "sections": [
-          {
-            "name": "Shotgun Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Mattock",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 310,
-            "y": 150
-          }
-        ],
-        "sections": [
-          {
-            "name": "Mattock Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Spring Shoes",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 440,
-            "y": 150
-          }
-        ],
-        "sections": [
-          {
-            "name": "Spring Shoes Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Jetpack",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 580,
-            "y": 150
-          }
-        ],
-        "sections": [
-          {
-            "name": "Jetpack Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Skeleton Key",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 42,
-            "y": 250
-          }
-        ],
-        "sections": [
-          {
-            "name": "Skeleton Key Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Web Gun",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 160,
-            "y": 250
-          }
-        ],
-        "sections": [
-          {
-            "name": "Web Gun Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Compass",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 250,
-            "y": 250
-          }
-        ],
-        "sections": [
-          {
-            "name": "Compass Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Teleporter",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 360,
-            "y": 250
-          }
-        ],
-        "sections": [
-          {
-            "name": "Teleporter Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Bomb Bag",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 440,
-            "y": 250
-          }
-        ],
-        "sections": [
-          {
-            "name": "Bomb Bag Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Hoverpack",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 580,
-            "y": 250
-          }
-        ],
-        "sections": [
-          {
-            "name": "Hoverpack Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Spectacles",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 42,
-            "y": 350
-          }
-        ],
-        "sections": [
-          {
-            "name": "Spectacles Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Crossbow",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 160,
-            "y": 350
-          }
-        ],
-        "sections": [
-          {
-            "name": "Crossbow Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Pitcher's Mitt",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 310,
-            "y": 350
-          }
-        ],
-        "sections": [
-          {
-            "name": "Pitcher's Mitt Journal Entry"
-          }
-        ]
-      },
-      {
-        "name": "Spike Shoes",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 440,
-            "y": 350
-          }
-        ],
-        "sections": [
-          {  "name": "Spike Shoes Journal Entry"  }
-        ]
-      },
-      {
-        "name": "Telepack",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 580,
-            "y": 350
-          }
-        ],
-        "sections": [
-          { "name": "Telepack Journal Entry"  }
+          { "name": "Metal Shield Journal Entry" }
         ]
       },
       {
         "name": "Parachute",
         "map_locations": [
           {
-            "map": "Normal Items",
-            "x": 42,
-            "y": 470
+            "map": "Items 3",
+            "x": 40,
+            "y": 190
           }
         ],
         "sections": [
@@ -2921,61 +3029,53 @@
         ]
       },
       {
-        "name": "Freeze Ray",
+        "name": "Sacrifice Enough and Get 18 Favor Points",
         "map_locations": [
           {
-            "map": "Normal Items",
-            "x": 160,
-            "y": 470
-          }
-        ],
-        "sections": [
-          { "name": "Freeze Ray Journal Entry" }
-        ]
-      },
-      {
-        "name": "Shield",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 310,
-            "y": 470
-          }
-        ],
-        "sections": [
-          { "name": "Shield Journal Entry" }
-        ]
-      },
-      {
-        "name": "Rope Pile",
-        "map_locations": [
-          {
-            "map": "Normal Items",
-            "x": 440,
-            "y": 470
+            "map": "Items 3",
+            "x": 110,
+            "y": 190
           }
         ],
         "sections": [
           {
-            "name": "Rope Pile Journal Entry"
+            "name": "Kapala Journal Entry"
           }
         ]
       },
       {
-        "name": "Powerpack",
+        "name": "Blow up a Turkey (Alive or Dead)",
         "map_locations": [
           {
-            "map": "Normal Items",
-            "x": 580,
-            "y": 470
+            "map": "Items 3",
+            "x": 185,
+            "y": 190
           }
         ],
         "sections": [
-          { "name": "Powerpack Journal Entry" }
+          {
+            "name": "Cooked Turkey Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Eggplant",
+        "map_locations": [
+          {
+            "map": "Items 3",
+            "x": 260,
+            "y": 190
+          }
+        ],
+        "sections": [
+          {
+            "name": "Eggplant Journal Entry"
+          }
         ]
       }
     ]
   },
+  // This is where you'll find the references for the entire map
   {
     "name": "Entire Map",
     "overlay_background": "#40000000",
@@ -3009,89 +3109,6 @@
           { "ref": "Snake/Snake Journal Entry" },
           { "ref": "Turkey/Turkey Journal Entry" },
           { "ref": "5-1 Inside Mothership or 1-4 Ghist Shop/Plasma Cannon Journal Entry"}
-        ]
-      },
-      {
-        "name": "Special Entries",
-        "map_locations": [
-          {
-            "map": "Entire Map",
-            "x": 550,
-            "y": 80
-          }
-        ],
-        "sections": [
-          { "ref": "Leprechaun/Leprechaun Journal Entry" },
-          { "ref": "Monty/Monty Journal Entry" },
-          { "ref": "Percy/Percy Journal Entry" },
-          { "ref": "Poochi/Poochi Journal Entry" },
-          { "ref": "Get 'Stop, thief!' by running away with a shop item and then meet her next world/Sparrow Journal Entry" },
-          { "ref": "Destroy Multiple Kali Alters/Beg Journal Entry" },
-          { "ref": "Tun/Tun Journal Entry" },
-          { "ref": "Sacrifice a Golden Idol to Kali/Golden Monkey Journal Entry" },
-          { "ref": "Caveman Shopkeeper/Caveman Shopkeeper Journal Entry" },
-          { "ref": "Touch the Ghost/Ghost Journal Entry" },
-          { "ref": "Shopkeeper/Shopkeeper Journal Entry" },
-          { "ref": "Break Enough Pots, Do Enough Moon Challenges or Tiamat Guarantee Spawn/Scorpion Journal Entry" }
-        ]
-      },
-      {
-        "name": "Special Items",
-        "map_locations": [
-          {
-            "map": "Entire Map",
-            "x": 710,
-            "y": 40
-          }
-        ],
-        "sections": [
-          { "ref": "Enough Kali Sacrificies or Queen Bee Drop/Royal Jelly Journal Entry" },
-          { "ref": "Golden Idol/Golden Idol Journal Entry" },
-          { "ref": "Ghost Vase/Ghost Vase Journal Entry" },
-          { "ref": "Eggplant/Eggplant Journal Entry" },
-          { "ref": "Meet Beg while Cursed/The True Crown Journal Entry" },
-          { "ref": "Blow up a Turkey (Alive or Dead)/Cooked Turkey Journal Entry" },
-          { "ref": "Clover/Clover Journal Entry" },
-          { "ref": "Sacrifice Enough and Get 18 Favor Points/Kapala Journal Entry" },
-          { "ref": "Tablet Of Destiny/Kill Kingu or Osirus/Tablet Of Destiny Journal Entry" }
-        ]
-      },
-      {
-        "name": "Normal Items",
-        "map_locations": [
-          {
-            "map": "Entire Map",
-            "x": 710,
-            "y": 120
-          }
-        ],
-        "sections": [
-          { "ref": "Paste/Paste Journal Entry" },
-          { "ref": "Machette/Machette Journal Entry" },
-          { "ref": "Camera/Camera Journal Entry" },
-          { "ref": "Bomb Box/Bomb Box Journal Entry" },
-          { "ref": "Cape/Cape Journal Entry" },
-          { "ref": "Climbing Gloves/Climbing Gloves Journal Entry" },
-          { "ref": "Shotgun/Shotgun Journal Entry" },
-          { "ref": "Mattock/Mattock Journal Entry" },
-          { "ref": "Spring Shoes/Spring Shoes Journal Entry" },
-          { "ref": "Jetpack/Jetpack Journal Entry" },
-          { "ref": "Skeleton Key/Skeleton Key Journal Entry" },
-          { "ref": "Web Gun/Web Gun Journal Entry" },
-          { "ref": "Compass/Compass Journal Entry" },
-          { "ref": "Teleporter/Teleporter Journal Entry" },
-          { "ref": "Bomb Bag/Bomb Bag Journal Entry" },
-          { "ref": "Hoverpack/Hoverpack Journal Entry" },
-          { "ref": "Spectacles/Spectacles Journal Entry" },
-          { "ref": "Crossbow/Crossbow Journal Entry" },
-          { "ref": "Pitcher's Mitt/Pitcher's Mitt Journal Entry" },
-          { "ref": "Spike Shoes/Spike Shoes Journal Entry" },
-          { "ref": "Telepack/Telepack Journal Entry" },
-          { "ref": "Parachute/Parachute Journal Entry" },
-          { "ref": "Freeze Ray/Freeze Ray Journal Entry" },
-          { "ref": "Shield/Shield Journal Entry" },
-          { "ref": "Rope Pile/Rope Pile Journal Entry" },
-          { "ref": "Powerpack/Powerpack Journal Entry" }
         ]
       },
       {
@@ -3148,6 +3165,7 @@
           { "ref": "Rock Dog/Rock Dog Journal Entry" },
           { "ref": "Vlad/Vlad Journal Entry" },
           { "ref": "Activate Spike Ball/Spike Ball Journal Entry" },
+          { "ref": "Sliding Door in Vlad's Castle/Sliding Door Journal Entry"},
           { "ref": "Fire Bug/Fire Bug Journal Entry" },
           { "ref": "Lavamander/Lavamander Journal Entry" },
           { "ref": "Vampire/Vampire Journal Entry" },
@@ -3312,7 +3330,8 @@
           { "ref": "Olmite/Olmite Journal Entry" },
           { "ref": "Lamassu/Lamassu Journal Entry" },
           { "ref": "Laser Trap/Laser Trap Journal Entry" },
-          { "ref": "Coffin in Neo Babylon/Airyn Journal Entry" }
+          { "ref": "Coffin in Neo Babylon/Airyn Journal Entry" },
+          { "ref": "Kill Tiamat and Beat the Game/Guy Spelunky Journal Entry"}
         ]
       },
       {

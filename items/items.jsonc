@@ -1,108 +1,32 @@
 [
+	
+	/// Permanent Upgrades
+	
 	{
-		"name": "Ankh",
-		"type": "toggle",
-		"loop": true,
-		"img": "images/items/quest/Ankh.png",
-		"codes": "ankh"
+		"name": "Health Upgrades",
+		"type": "consumable",
+		"initial_quantity": 0,
+		"increment": 1,
+		"max_quantity": 30,
+		"img": "images/items/Cooked_Turkey.png",
+		"codes": "hp"
 	},
 	{
-		"name": "Arrow of Light",
-		"type": "toggle",
-		"loop": true,
-		"img": "images/items/quest/Arrow_of_light.png",
-		"codes": "ArrowOfLight"
+		"name": "Bomb Upgrades",
+		"type": "consumable",
+		"initial_quantity": 0,
+		"increment": 1,
+		"max_quantity": 30,
+		"img": "images/items/Bomb_Box.png",
+		"codes": "bombs"
 	},
 	{
-		"name": "Crown",
-		"type": "toggle",
-		"loop": true,
-		"img": "images/items/quest/Crown.png",
-		"codes": "crown"
-	},
-	{
-		"name": "Excalibur",
-		"type": "toggle",
-		"loop": true,
-		"img": "images/items/quest/Excalibur.png",
-		"codes": "excalibur"
-	},
-	{
-		"name": "Hedjet",
-		"type": "toggle",
-		"loop": true,
-		"img": "images/items/quest/hedjet.png",
-		"codes": "hedjet"
-	},
-	{
-		"name": "Hou Yis Bow",
-		"type": "toggle",
-		"loop": true,
-		"img": "images/items/quest/Hou_Yis_Bow.png",
-		"codes": "HouYisBow"
-	},
-	{
-		"name": "Scepter",
-		"type": "toggle",
-		"loop": true,
-		"img": "images/items/quest/Scepter.png",
-		"codes": "scepter"
-	},
-	{
-		"name": "Tablet of Destiny",
-		"type": "toggle",
-		"loop": true,
-		"img": "images/items/quest/Tablet_of_Destiny.png",
-		"codes": "TabletOfDestiny"
-	},
-	{
-		"name": "Udjat Eye",
-		"type": "toggle",
-		"loop": true,
-		"img": "images/items/quest/Udjat.png",
-		"codes": "udjat"
-	},
-	{
-		"name": "Ushabti",
-		"type": "toggle",
-		"loop": true,
-		"img": "images/items/quest/Ushabti.png",
-		"codes": "ushabti"
-	},
-	{
-		"name": "Compass",
-		"type": "progressive",
-		"loop": false,
-		"stages": [
-			{"img": "images/items/progressive/Compass.png","codes": "compass"},
-			{"img": "images/items/progressive/Alien_Compass.png","codes": "AlienCompass"}
-		]
-	},
-	{
-		"name": "Starting Health",
+		"name": "Rope Upgrades",
 		"type": "consumable",
 		"initial_quantity": 0,
 		"increment": 1,
 		"max_quantity": 20,
-		"img": "images/items/progressive/Cooked_Turkey.png",
-		"codes": "hp"
-	},
-	{
-		"name": "Starting Bomb",
-		"type": "consumable",
-		"initial_quantity": 0,
-		"increment": 1,
-		"max_quantity": 10,
-		"img": "images/items/progressive/Bomb_Box.png",
-		"codes": "bombs"
-	},
-	{
-		"name": "Starting Rope",
-		"type": "consumable",
-		"initial_quantity": 0,
-		"increment": 1,
-		"max_quantity": 10,
-		"img": "images/items/progressive/Rope_Pile.png",
+		"img": "images/items/Rope_Pile.png",
 		"codes": "ropes"
 	},
 	{
@@ -111,36 +35,665 @@
 		"initial_quantity": 0,
 		"increment": 1,
 		"max_quantity": 3,
-		"img": "images/items/progressive/Celestial_Jelly.png",
+		"img": "images/items/Celestial_Jelly.png",
 		"codes": "COCheckpoint"
-	},
-	{
-		"name": "Starting Paste",
-		"type": "toggle",
-		"loop": true,
-		"img": "images/items/progressive/paste.png",
-		"codes": "paste"
-	},
-	{
-		"name": "Eggplant",
-		"type": "toggle",
-		"loop": true,
-		"img": "images/items/progressive/Eggplant.png",
-		"codes": "eggplant"
 	},
 	{
 		"name": "Progressive World Unlocks",
 		"type": "progressive",
 		"loop": false,
 		"stages": [
-			{"img": "images/items/worlds/World_2.png","codes": "secondworld"},
-			{"img": "images/items/worlds/OlmecWorld.png","codes": "olmec_lair"},
-			{"img": "images/items/worlds/World_4.png","codes": "fourthworld"},
-			{"img": "images/items/worlds/IceWorld.png","codes": "ice_caves"},
-			{"img": "images/items/worlds/NeoWorld.png","codes": "neo_babylon"},
-			{"img": "images/items/worlds/SunkenWorld.png","codes": "sunken_city"},
-			{"img": "images/items/worlds/CosmicOcean.png","codes": "cosmic_ocean"}
+			{"img": "images/worlds/World_2.png","codes": "secondworld"},
+			{"img": "images/worlds/OlmecWorld.png","codes": "olmec_lair"},
+			{"img": "images/worlds/World_4.png","codes": "fourthworld"},
+			{"img": "images/worlds/IceWorld.png","codes": "ice_caves"},
+			{"img": "images/worlds/NeoWorld.png","codes": "neo_babylon"},
+			{"img": "images/worlds/SunkenWorld.png","codes": "sunken_city"},
+			{"img": "images/worlds/CosmicOcean.png","codes": "cosmic_ocean"}
 		]
+	},
+	
+	// Starting Items (Upgrades, S meaning Starting)
+	
+	{
+		"name": "Starting Ankh",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Ankh.png",
+		"codes": "SAnkh"
+	},
+	{
+		"name": "Starting Camera",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Camera.png",
+		"codes": "Scamera"
+	},
+	{
+		"name": "Starting Cape",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Cape.png",
+		"codes": "Scape"
+	},
+	{
+		"name": "Starting Climbing Gloves",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Climbing_Gloves.png",
+		"codes": "SClimbingGloves"
+	},
+	{
+		"name": "Clone Gun",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Clone_Gun.png",
+		"codes": "SCloneGun"
+	},
+	{
+		"name": "Starting Compass", 
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Compass.png",
+		"codes": "Scompass"
+	},
+	{
+		"name": "Starting Eggplant",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Eggplant.png",
+		"codes": "Seggplant"
+	},
+	{
+		"name": "Starting Eggplant Crown",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Eggplant_Crown.png",
+		"codes": "SEggplantCrown"
+	},
+	{
+		"name": "Starting Elixir",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Elixir.png",
+		"codes": "Selixir"
+	},
+	{
+		"name": "Starting Four Leaf Clover",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Clover.png",
+		"codes": "Sclover"
+	},
+	{
+		"name": "Starting Freeze Ray",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Freeze_Ray.png",
+		"codes": "SFreezeRay"
+	},
+	{
+		"name": "Starting Hoverpack",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Hoverpack.png",
+		"codes": "Shoverpack"
+	},
+	{
+		"name": "Starting Jetpack",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Jetpack.png",
+		"codes": "Sjetpack"
+	},
+	{
+		"name": "Starting Kapala",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Kapala.png",
+		"codes": "Skapala"
+	},
+	{
+		"name": "Starting Machete",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Machete.png",
+		"codes": "Smachete"
+	},
+	{
+		"name": "Starting Mattock",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Mattock.png",
+		"codes": "Smattock"
+	},
+	{
+		"name": "Starting Paste",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Paste.png",
+		"codes": "Spaste"
+	},
+	{
+		"name": "Starting Pitcher's Mitt",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Pitchers_Mitt.png",
+		"codes": "SPitchersMitt"
+	},
+	{
+		"name": "Starting Plasma Cannon",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Plasma_Cannon.png",
+		"codes": "SPlasmaCannon"
+	},
+	{
+		"name": "Starting Powerpack",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Powerpack.png",
+		"codes": "Spowerpack"
+	},
+	{
+		"name": "Starting Metal Shield",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Metal_Shield.png",
+		"codes": "SMetalShield"
+	},
+	{
+		"name": "Starting Skeleton Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Skeleton_Key.png",
+		"codes": "SSkeletonKey"
+	},
+	{
+		"name": "Starting Spectacles",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Spectacles.png",
+		"codes": "Sspectacles"
+	},
+	{
+		"name": "Starting Spike Shoes",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Spike_Shoes.png",
+		"codes": "SSpikeShoes"
+	},
+	{
+		"name": "Starting Spring Shoes",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Spring_Shoes.png",
+		"codes": "SSpringShoes"
+	},
+	{
+		"name": "Starting Telepack",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Telepack.png",
+		"codes": "Stelepack"
+	},
+	{
+		"name": "Starting Teleporter",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Teleporter.png",
+		"codes": "Steleporter"
+	},
+	{
+		"name": "Starting True Crown",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/True_Crown.png",
+		"codes": "STrueCrown"
+	},
+	{
+		"name": "Starting Vlad's Cape",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Vlads_Cape.png",
+		"codes": "SVladsCape"
+	},
+	{
+		"name": "Starting Webgun",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Webgun.png",
+		"codes": "Swebgun"
+	},
+
+	// Restricted (R for restricted, Also Waddler items)
+	
+	{
+		"name": "Alien Compass",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Alien_Compass.png",
+		"codes": "RAlienCompass"
+	},
+	{
+		"name": "Ankh",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Ankh.png",
+		"codes": "Rankh"
+	},
+	{
+		"name": "Arrow of Light",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Arrow_Of_Light.png",
+		"codes": "RArrowOfLight"
+	},
+	{
+		"name": "Camera",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Camera.png",
+		"codes": "Rcamera"
+	},
+	{
+		"name": "Cape",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Cape.png",
+		"codes": "Rcape"
+	},
+	{
+		"name": "Climbing Gloves",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Climbing_Gloves.png",
+		"codes": "RClimbingGloves"
+	},
+	{
+		"name": "Clone Gun",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Clone_Gun.png",
+		"codes": "RCloneGun"
+	},
+	{
+		"name": "Compass",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Compass.png",
+		"codes": "Rcompass"
+	},
+	{
+		"name": "Crown",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Crown.png",
+		"codes": "Rcrown"
+	},
+	{
+		"name": "Eggplant",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Eggplant.png",
+		"codes": "Reggplant"
+	},
+	{
+		"name": "Eggplant Crown",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Eggplant_Crown.png",
+		"codes": "REggplantCrown"
+	},
+	{
+		"name": "Elixir",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Elixir.png",
+		"codes": "Relixir"
+	},
+	{
+		"name": "Excalibur",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Excalibur.png",
+		"codes": "Rexcalibur"
+	},
+	{
+		"name": "Four-Leaf Clover",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Clover.png",
+		"codes": "RFourLeafClover"
+	},
+	{
+		"name": "Freeze Ray",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Freeze_Ray.png",
+		"codes": "RFreezeRay"
+	},
+	{
+		"name": "Excalibur",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Excalibur.png",
+		"codes": "RExcalibur"
+	},
+	{
+		"name": "Hedjet",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Hedjet.png",
+		"codes": "Rhedjet"
+	},
+	{
+		"name": "Hou Yis Bow",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Hou_Yis_Bow.png",
+		"codes": "RHouYisBow"
+	},
+	{
+		"name": "Hoverpack",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Hoverpack.png",
+		"codes": "Rhoverpack"
+	},
+	{
+		"name": "Jetpack",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Jetpack.png",
+		"codes": "Rjetpack"
+	},
+	{
+		"name": "Kapala",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Kapala.png",
+		"codes": "Rkapala"
+	},
+	{
+		"name": "Machete",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Machete.png",
+		"codes": "Rmachete"
+	},
+	{
+		"name": "Mattock",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Mattock.png",
+		"codes": "Rmattock"
+	},
+	{
+		"name": "Paste",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Paste.png",
+		"codes": "Rpaste"
+	},
+	{
+		"name": "Pitcher's Mitt",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Pitchers_Mitt.png",
+		"codes": "RPitchersMitt"
+	},
+	{
+		"name": "Plasma Cannon",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Plasma_Cannon.png",
+		"codes": "RPlasmaCannon"
+	},
+	{
+		"name": "Powerpack",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Powerpack.png",
+		"codes": "Rpowerpack"
+	},
+	{
+		"name": "Scepter",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Scepter.png",
+		"codes": "Rscepter"
+	},
+	{
+		"name": "Metal Shield",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Metal_Shield.png",
+		"codes": "RMetalShield"
+	},
+	{
+		"name": "Skeleton Key",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Skeleton_Key.png",
+		"codes": "RSkeletonKey"
+	},
+	{
+		"name": "Spectacles",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Spectacles.png",
+		"codes": "Rspectacles"
+	},
+	{
+		"name": "Spike Shoes",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Spike_Shoes.png",
+		"codes": "RSpikeShoes"
+	},
+	{
+		"name": "Spring Shoes",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Spring_Shoes.png",
+		"codes": "RSpringShoes"
+	},
+	{
+		"name": "Tablet of Destiny",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Tablet_Of_Destiny.png",
+		"codes": "RTabletOfDestiny"
+	},
+	{
+		"name": "Telepack",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Telepack.png",
+		"codes": "Rtelepack"
+	},
+	{
+		"name": "Teleporter",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Teleporter.png",
+		"codes": "Rteleporter"
+	},
+	{
+		"name": "True Crown",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/True_Crown.png",
+		"codes": "RTrueCrown"
+	},
+	{
+		"name": "Udjat Eye",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Udjat.png",
+		"codes": "Rudjat"
+	},
+	{
+		"name": "Ushabti",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Ushabti.png",
+		"codes": "Rushabti"
+	},
+	{
+		"name": "Vlad's Cape",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Vlads_Cape.png",
+		"codes": "RVladsCape"
+	},
+	{
+		"name": "Webgun",
+		"type": "toggle",
+		"loop": true,
+		"img": "images/items/Webgun.png",
+		"codes": "Rwebgun"
+	},
+	/// Unlockable Characters
+	{
+	"name": "Liz",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/Liz.png",
+	"codes": "liz"
+	},
+	{
+	"name": "Nekka",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/Nekka.png",
+	"codes": "nekka"
+	},
+	{
+	"name": "LISE",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/LISE.png",
+	"codes": "lise"
+	},
+	{
+	"name": "Coco",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/Coco.png",
+	"codes": "coco"
+	},
+	{
+	"name": "Manfred",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/Manfred.png",
+	"codes": "manfred"
+	},
+	{
+	"name": "Jay",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/Jay.png",
+	"codes": "jay"
+	},
+	{
+	"name": "Tina",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/Tina.png",
+	"codes": "tina"
+	},
+	{
+	"name": "Valerie",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/Valerie.png",
+	"codes": "valerie"
+	},
+	{
+	"name": "Au",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/Au.png",
+	"codes": "au"
+	},
+	{
+	"name": "Demi",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/Demi.png",
+	"codes": "demi"
+	},
+	{
+	"name": "Pilot",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/Pilot.png",
+	"codes": "pilot"
+	},
+	{
+	"name": "Airyn",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/Airyn.png",
+	"codes": "airyn"
+	},
+	{
+	"name": "Dirk",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/Dirk.png",
+	"codes": "dirk"
+	},
+	{
+	"name": "Guy",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/Guy.png",
+	"codes": "guy"
+	},
+	{
+	"name": "Classic",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/Classic.png",
+	"codes": "classic"
+	},
+	{
+	"name": "Ana",
+	"type": "toggle",
+	"loop": false,
+	"img": "images/characters/Ana.png",
+	"codes": "ana"
+	},
+	{
+	"name": "Margaret",
+	"type": "toggle",
+	"loop": false,
+	"img": "images/characters/Margaret.png",
+	"codes": "margaret"
+	},
+	{
+	"name": "Colin",
+	"type": "toggle",
+	"loop": false,
+	"img": "images/characters/Colin.png",
+	"codes": "colin"
+	},
+	{
+	"name": "Roffy",
+	"type": "toggle",
+	"loop": false,
+	"img": "images/characters/Roffy.png",
+	"codes": "roffy"
+	},
+	{
+	"name": "Alto",
+	"type": "toggle",
+	"loop": true,
+	"img": "images/characters/Alto.png",
+		"codes": "alto"
 	}
 ]
-
