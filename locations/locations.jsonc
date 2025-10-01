@@ -51,7 +51,7 @@
       {
         "name": "Udjat Eye",
         "access_rules": [
-          ["udjat"]
+          "Rudjat"
         ],
         "map_locations": [
           {
@@ -279,7 +279,7 @@
       {
         "name": "5-1 Inside Mothership or 1-4 Ghist Shop",
         "access_rules": [
-          "[ice_caves],[AlienCompass]"
+          "RPlasmaCannon,[ice_caves],[RAlienCompass]"
         ],
         "map_locations": [
           {
@@ -326,7 +326,7 @@
       {
         "name": "Black Market Coffin",
         "access_rules":[
-          "[udjat]"
+          "[Rudjat]"
         ],
         "map_locations": [
           {
@@ -419,7 +419,7 @@
       {
         "name": "Hedjet",
         "access_rules":[
-          "hedjet, [udjat]"
+          "Rhedjet, [Rudjat]"
         ],
         "map_locations": [
           {
@@ -641,7 +641,7 @@
       {
         "name": "Coffin in Vlad's Castle",
         "access_rules":[
-          "[udjat]"
+          "[Rudjat]"
         ],
         "map_locations": [
           {
@@ -659,7 +659,7 @@
       {
         "name": "Vlad's Cape",
         "access_rules":[
-          "[udjat]"
+          "RVladsCape,[Rudjat]"
         ],
         "map_locations": [
           {
@@ -677,7 +677,7 @@
       {
         "name": "Crown",
         "access_rules":[
-          "[udjat],crown"
+          "[Rudjat],Rcrown"
         ],
         "map_locations": [
           {
@@ -785,7 +785,7 @@
       {
         "name": "Vlad",
         "access_rules": [
-          "[udjat]"
+          "[Rudjat]"
         ],
         "map_locations": [
           {
@@ -848,7 +848,7 @@
       {
         "name": "Vampire",
         "access_rules": [
-          "[udjat]"
+          "[Rudjat]"
         ],
         "map_locations": [
           {
@@ -881,7 +881,7 @@
       {
         "name": "Sliding Door in Vlad's Castle",
         "access_rules": [
-          "[udjat]"
+          "[Rudjat]"
         ],
         "map_locations": [
           {
@@ -908,7 +908,7 @@
       {
         "name": "Ankh",
         "access_rules": [
-          "ankh"
+          "Rankh"
         ],
         "map_locations": [
           {
@@ -1014,13 +1014,13 @@
     "name": "Tide Pool",
     "overlay_background":"#40000000",
     "access_rules": [
-      ["fourthworld"]
+      "fourthworld"
     ],
     "children": [
       {
         "name": "Excalibur",
         "access_rules": [
-          "crown,excalibur,[udjat]","hedjet,excalibur,[udjat]"
+          "Rcrown,Rexcalibur,[Rudjat]","Rhedjet,Rexcalibur,[Rudjat]"
         ],
         "map_locations": [
           {
@@ -1038,7 +1038,7 @@
       {
         "name": "Use Clone Gun on Excalibur",
         "access_rules": [
-          "excalibur"
+          "Rexcalibur,RCloneGun"
         ],
         "map_locations": [
           {
@@ -1130,6 +1130,9 @@
       },
       {
         "name": "Tide Pool - Complete the Star Challenge",
+        "access_rules":[
+          "RCloneGun,fourthworld"
+        ],
         "map_locations": [
           {
             "map": "Tide Pool",
@@ -1281,13 +1284,13 @@
       {
         "name": "Abzu",
         "access_rules":[
-          "[ankh]"
+          "[Rankh]"
         ],
         "children": [
           {
             "name": "Kingu",
             "access_rules": [
-              "[excalibur],[hedjet],[udjat]","[excalibur],[crown],[udjat]"
+              "[Rexcalibur],[Rhedjet],[Rudjat]","[Rexcalibur],[Rcrown],[Rudjat]"
             ],
             "map_locations": [
               {
@@ -1331,7 +1334,7 @@
       {
         "name": "Kill Anubis and take his Weapon",
         "access_rules": [
-          "scepter"
+          "Rscepter"
         ],
         "map_locations": [
           {
@@ -1348,6 +1351,9 @@
       },
       {
         "name": "Complete Van Horsing Quest",
+        "access_rules": [
+          "[RAlienCompass]"
+        ],
         "map_locations": [
           {
             "map": "Temple",
@@ -1470,6 +1476,9 @@
       },
       {
         "name": "Temple - Complete the Star Challenge",
+        "access_rules":[
+          "Relixir"
+        ],
         "map_locations": [
           {
             "map": "Temple",
@@ -1518,7 +1527,7 @@
       {
         "name": "Coffin in City of gold",
         "access_rules":[
-          "scepter,crown,[udjat]","scepter,hedjet,[udjat]"
+          "Rscepter,Rcrown,[Rudjat]","Rscepter,Rhedjet,[Rudjat]"
         ],
         "map_locations": [
           {
@@ -1551,7 +1560,7 @@
       {
         "name": "Duat",
         "access_rules": [
-          "scepter,ankh,crown,[udjat]","scepter,ankh,hedjet,[udjat]"
+          "Rscepter,Rankh,Rcrown,[Rudjat]","Rscepter,Rankh,Rhedjet,[Rudjat]"
         ],
         "children":[
           {
@@ -1628,7 +1637,7 @@
       {
         "name": "Coffin in Spaceship",
         "access_rules": [
-          "[Aliencompass]"
+          "[RAlienCompass]"
         ],
         "map_locations": [
           {
@@ -1661,7 +1670,7 @@
       {
         "name": "Place Eggplant on Altar at top of Level",
         "access_rules": [
-          "[eggplant]"
+          "Reggplant"
         ],
         "map_locations": [
           {
@@ -1757,7 +1766,7 @@
       {
         "name": "Giant Alien in Mothership",
         "access_rules": [
-          "[Aliencompass]"
+          "[RAlienCompass]"
         ],
         "map_locations": [
           {
@@ -1843,6 +1852,9 @@
       },
       {
         "name": "6-2 Ushabti in Backroom",
+        "access_rules":[
+          "Rushabti"
+        ],
         "map_locations": [
           {
             "map": "Neo Babylon",
@@ -1856,16 +1868,17 @@
           }
         ]
       },
+      //return here after
       {
         "name": "Qilin",
         "access_rules":[
-          "[TabletOfDestiny],[ankh],ushabti,[udjat]"
+          "[RTabletOfDestiny],Rushabti,[Rudjat],[Rankh]"
         ],
         "children": [
           {
             "name": "Get the right Ushabti to 6-3",
             "access_rules": [
-            "[crown],[excalibur]","[hedjet],[excalibur]","[crown],[scepter]","[hedjet],[scepter]"
+            "[Rcrown],[Rexcalibur]","[Rhedjet],[Rexcalibur]","[Rcrown],[Rscepter]","[Rhedjet],[Rscepter]"
             ],
             "map_locations": [
               {
@@ -1978,13 +1991,13 @@
     "name": "Sunken City",
     "overlay_background":"#40000000",
     "access_rules": [
-      "sunken_city,[ushabti],[TabletOfDestiny],[ankh],[udjat]"
+      "sunken_city,[Rushabti],[RTabletOfDestiny],[Rankh],[Rudjat]"
     ],
     "children": [
       {
         "name": "Sunken City",
         "access_rules": [
-          "[crown],[excalibur]","[crown],[scepter]","[hedjet],[excalibur]","[hedjet],[scepter]"
+          "[Rcrown],[Rexcalibur]","[Rcrown],[Rscepter]","[Rhedjet],[Rexcalibur]","[Rhedjet],[Rscepter]"
         ],
         "children": [ 
           {
@@ -2080,13 +2093,13 @@
           {
             "name": "Complete the Sun challenge",
             "access_rules": [
-              "ArrowOfLight"
+              "RArrowOfLight"
             ],
             "map_locations": [
               {
                 "map": "Sunken City",
-                "x": 460,
-                "y": 160
+                "x": 465,
+                "y": 110
               }
             ],
             "sections": [
@@ -2145,8 +2158,8 @@
             "map_locations": [
               {
                 "map": "Sunken City",
-                "x": 460,
-                "y": 260
+                "x": 465,
+                "y": 210
               }
             ],
             "sections": [
@@ -2158,7 +2171,7 @@
           {
             "name": "Celestial Jelly",
             "access_rules": [
-              "HouYisBow,ArrowOfLight,cosmic_ocean"
+              "RHouYisBow,RArrowOfLight,cosmic_ocean"
             ],
             "map_locations": [
               {
@@ -2204,9 +2217,24 @@
             ]
           },
           {
+            "name": "Kill Hundun and Beat the Game",
+            "map_locations": [
+              {
+                "map": "Sunken City",
+                "x": 465,
+                "y": 355
+              }
+            ],
+            "sections": [
+              {
+                "name": "Classic Guy Journal Entry"
+              }
+            ]
+          },
+          {
             "name": "Eggplant World",
             "access_rules": [
-              "[eggplant]"
+              "Reggplant"
             ],
             "children":[
               {
@@ -2226,6 +2254,9 @@
               },
               {
                 "name": "Eggplant Crown",
+                "access_rules": [
+                  "REggplantCrown"
+                ],
                 "map_locations": [
                   {
                     "map": "Eggplant World",
@@ -2297,26 +2328,44 @@
         ]
       },
       {
-        "name": "Tun",
-        "access_rules":[
+        "name": "Get 'Stop, thief!' by running away with a shop item and then meet her next world",
+        "access_rules": [
           "secondworld"
         ],
         "map_locations": [
           {
             "map": "Special Entities 1",
-            "x": 205,
+            "x": 150,
             "y": 50
           }
         ],
         "sections": [
           {
-            "name": "Tun Journal Entry"
+            "name": "Sparrow Journal Entry"
           }
         ]
       },
       {
-        "name": "Get 'Stop, thief!' by running away with a shop item and then meet her next world",
-        "access_rules": [
+        "name": "Locked doors in shops or Vlad's castle coffins",
+        "access_rules":[
+          "[secondworld]"
+        ],
+        "map_locations": [
+          {
+            "map": "Special Entities 1",
+            "x": 250,
+            "y": 50
+          }
+        ],
+        "sections": [
+          {
+            "name": "Margaret Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Tun",
+        "access_rules":[
           "secondworld"
         ],
         "map_locations": [
@@ -2328,7 +2377,7 @@
         ],
         "sections": [
           {
-            "name": "Sparrow Journal Entry"
+            "name": "Tun Journal Entry"
           }
         ]
       },
@@ -2337,7 +2386,7 @@
         "map_locations": [
           {
             "map": "Special Entities 1",
-            "x": 205,
+            "x": 150,
             "y": 160
           }
         ],
@@ -2348,12 +2397,30 @@
         ]
       },
       {
+        "name": "Locked doors in shops or Vlad castle coffins",
+        "access_rules":[
+          "[secondworld]"
+        ],
+        "map_locations": [
+          {
+            "map": "Special Entities 1",
+            "x": 250,
+            "y": 160
+          }
+        ],
+        "sections": [
+          {
+            "name": "Colin Journal Entry"
+          }
+        ]
+      },
+      {
         "name": "Terra Tunnel",
         "map_locations": [
           {
             "map": "Special Entities 1",
-            "x": 55,
-            "y": 290
+            "x": 150,
+            "y": 270
           }
         ],
         "sections": [
@@ -2367,13 +2434,49 @@
         "map_locations": [
           {
             "map": "Special Entities 1",
-            "x": 205,
-            "y": 290
+            "x": 55,
+            "y": 270
           }
         ],
         "sections": [
           {
             "name": "Ghost Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Locked doors in shops or Vlad's castle coffin",
+        "access_rules":[
+          "[secondworld]"
+        ],
+        "map_locations": [
+          {
+            "map": "Special Entities 1",
+            "x": 250,
+            "y": 270
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ana Journal Entry"
+          }
+        ]
+      },
+      {
+        "name": "Locked door in shops or Vlad's castle coffins",
+        "access_rules":[
+          "[secondworld]"
+        ],
+        "map_locations": [
+          {
+            "map": "Special Entities 1",
+            "x": 340,
+            "y": 160
+          }
+        ],
+        "sections": [
+          {
+            "name": "Roffy Journal Entry"
           }
         ]
       },
@@ -2546,6 +2649,9 @@
       },
       {
         "name": "Freeze Ray",
+        "access_rules": [
+          "RFreezeRay, [secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 1",
@@ -2574,6 +2680,9 @@
       },
       {
         "name": "Web Gun",
+        "access_rules":[
+          "Rwebgun,[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 1",
@@ -2634,6 +2743,9 @@
       },
       {
         "name": "Mattock",
+        "access_rules":[
+          "Rmattock,[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 1",
@@ -2649,21 +2761,34 @@
       },
       {
         "name": "Jetpack",
-        "map_locations": [
-          {
-            "map": "Items 1",
-            "x": 40,
-            "y": 230
-          }
+        "access_rules":[
+          "Rjetpack,[Rankh],[fourthworld],[Rscepter]"
         ],
-        "sections": [
+        "children": [
           {
-            "name": "Jetpack Journal Entry"
+            "access_rules":[
+              "Rhedjet","Rcrown"
+            ],
+            "map_locations": [
+              {
+                "map": "Items 1",
+                "x": 40,
+                "y": 230
+              }
+            ],
+            "sections": [
+              {
+                "name": "Jetpack Journal Entry"
+              }
+            ]
           }
         ]
       },
       {
         "name": "Hoverpack",
+        "access_rules":[
+          "Rhoverpack,[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 1",
@@ -2679,6 +2804,9 @@
       },
        {
         "name": "Telepack",
+        "access_rules":[
+          "Rtelepack,[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 1",
@@ -2692,6 +2820,9 @@
       },
       {
         "name": "Powerpack",
+        "access_rules":[
+          "Rpowerpack,[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 1",
@@ -2706,6 +2837,9 @@
                                                     /// Second set of items
       {
         "name": "Pitcher's Mitt",
+        "access_rules": [
+          "RPitchersMitt,[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 2",
@@ -2721,6 +2855,9 @@
       },
       {
         "name": "Climbing Gloves",
+        "access_rules": [
+          "RClimbingGloves,[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 2",
@@ -2736,6 +2873,9 @@
       },
       {
         "name": "Spike Shoes",
+        "access_rules": [
+          "RSpikeShoes,[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 2",
@@ -2749,6 +2889,9 @@
       },
       {
         "name": "Spring Shoes",
+        "access_rules": [
+          "RSpringShoes,[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 2",
@@ -2764,6 +2907,9 @@
       },
       {
         "name": "Cape",
+        "access_rules":[
+          "Rcape,[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 2",
@@ -2779,6 +2925,9 @@
       },
       {
         "name": "Spectacles",
+        "access_rules": [
+          "Rspectacles,[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 2",
@@ -2794,6 +2943,9 @@
       },
       {
         "name": "Skeleton Key",
+        "access_rules":[
+          "RSkeletonKey,[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 2",
@@ -2809,6 +2961,9 @@
       },
       {
         "name": "Compass",
+        "access_rules": [
+          "Rcompass,[ice_caves]"
+        ],
         "map_locations": [
           {
             "map": "Items 2",
@@ -2824,6 +2979,9 @@
       },
       {
         "name": "Machette",
+        "access_rules":[
+          "Rmachete,[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 2",
@@ -2839,6 +2997,9 @@
       },
       {
         "name": "Teleporter",
+        "access_rules":[
+          "Rteleporter,[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 2",
@@ -2854,6 +3015,9 @@
       },
       {
         "name": "Camera",
+        "access_rules":[
+          "Rcamera,[fourthworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 2",
@@ -2869,6 +3033,9 @@
       },
       {
         "name": "Paste",
+        "access_rules": [
+          "Rpaste,[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 2",
@@ -2884,7 +3051,10 @@
       },
                                                 /// Third set of items
       {
-        "name": "Enough Kali Sacrificies or Queen Bee Drop",
+        "name": "Kill Queen Bee or Kali Reward",
+        "access_rules":[
+          "[secondworld]"
+        ],
         "map_locations": [
           {
             "map": "Items 3",
@@ -2930,6 +3100,9 @@
       },
       {
         "name": "Clover",
+        "access_rules":[
+          "RFourLeafClover,secondworld"
+        ],
         "map_locations": [
           {
             "map": "Items 3",
@@ -2946,7 +3119,7 @@
       {
         "name": "Hou Yi's Bow",
         "access_rules": [
-          "HouYisBow, Secondworld"
+          "RHouYisBow, secondworld"
         ],
         "map_locations": [
           {
@@ -2963,6 +3136,9 @@
       },
       {
         "name": "Meet Beg while Cursed",
+        "access_rules": [
+          "RTrueCrown"
+        ],
         "map_locations": [
           {
             "map": "Items 3",
@@ -2979,12 +3155,12 @@
       {
         "name":"Tablet Of Destiny",
         "access_rules": [
-          "TabletOfDestiny,[udjat],fourthworld"
+          "RTabletOfDestiny,[Rudjat],fourthworld"
         ],
         "children":[
           {
             "access_rules": [
-              "[crown],[excalibur],[ankh]","[hedjet],[excalibur],[ankh]","crown,scepter,ankh","hedjet,scepter,ankh"
+              "[Rcrown],[Rexcalibur],[Rankh]","[Rhedjet],[Rexcalibur],[Rankh]","Rcrown,Rscepter,Rankh","Rhedjet,Rscepter,Rankh"
             ],
             "name": "Kill Kingu or Osirus",
             "map_locations": [
@@ -3004,6 +3180,9 @@
       },
       {
         "name": "Metal Shield",
+        "access_rules":[
+          "RMetalShield"
+        ],
         "map_locations": [
           {
             "map": "Items 3",
@@ -3017,6 +3196,9 @@
       },
       {
         "name": "Parachute",
+        "access_rules": [
+          "[olmec_lair]"
+        ],
         "map_locations": [
           {
             "map": "Items 3",
@@ -3029,7 +3211,10 @@
         ]
       },
       {
-        "name": "Sacrifice Enough and Get 18 Favor Points",
+        "name": "Sacrifice to 18 points",
+        "access_rules": [
+          "Rkapala,[neo_babylon]"
+        ],
         "map_locations": [
           {
             "map": "Items 3",
@@ -3060,6 +3245,9 @@
       },
       {
         "name": "Eggplant",
+        "access_rules":[
+          "Reggplant"
+        ],
         "map_locations": [
           {
             "map": "Items 3",
@@ -3368,7 +3556,8 @@
           { "ref": "Fire Frog/Fire Frog Journal Entry" },
           { "ref": "Giant Fly/Giant Fly Journal Entry" },
           { "ref": "Bone Drop Trap/Bone Drop Journal Entry" },
-          { "ref": "Grub/Grub Journal Entry" }
+          { "ref": "Grub/Grub Journal Entry" },
+          { "ref": "Kill Hundun and Beat the Game/Classic Guy Journal Entry" }
         ]
       },
       {

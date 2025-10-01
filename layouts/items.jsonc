@@ -52,10 +52,10 @@
                 "h_alignment": "middle",
                 "item_size": 50,
                 "rows": [
-                    ["liz", "nekka", "lise", "coco"],
-                    ["manfred", "jay", "classic", "alto"],
-                    ["valerie", "au", "demi", "pilot"],
-                    ["airyn", "dirk", "tina", "guy"]
+                    ["ana","colin", "roffy", "margaret", "alto"],
+                    ["lise","nekka", "liz", "coco", "manfred"],
+                    ["valerie","au", "jay", "tina", "demi"],
+                    ["pilot","valerie", "guy", "dirk", "classic"]
                 ]
             }
         ]

@@ -161,7 +161,7 @@
             },
             {
               "type": "dock",
-              "dock": "left",
+              "dock": "right",
               "content": [
                 {
                   "type": "group",
@@ -198,7 +198,7 @@
             },
             {
               "type": "dock",
-              "dock": "right",
+              "dock": "left",
               "content": [
                 {
                   "type": "group",
